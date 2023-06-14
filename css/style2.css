@@ -1,0 +1,130 @@
+body{
+    background-color: rgb(0, 0, 0);
+    overflow-x: hidden;
+}
+
+
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #333;
+  }
+  
+  li {
+    float: right;
+    margin-right: 200px;
+  }
+  
+  li a {
+    display: block;
+    color: rgb(13, 179, 190);
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+  }
+  
+  li a:hover {
+    background-color: #111;
+  }
+
+  img{
+    height: 100px;
+    width: fit-content;
+  }
+
+.row {
+    border: 1px goldenrod solid;
+}
+
+.col {
+    border: 1px rgb(216, 38, 15) solid;
+}
+
+.space {
+    height: 500px;
+}
+
+.img1{
+ vertical-align: 50px;
+  height: auto;
+  width: 350px;
+}
+
+.img2{
+  vertical-align: 50px;
+  height: auto;
+  width: 350px;
+}
+
+.img3{
+  vertical-align: 50px;
+  height: auto;
+  width: 350px;
+}
+
+.img4{
+  vertical-align: 50px;
+  height: auto;
+  width: 350px;
+}
+
+.img5{
+  vertical-align: 50px;
+  height: auto;
+  width: 350px;
+}
+
+.img6{
+  vertical-align: 50px;
+  height: auto;
+  width: 350px;
+}
+
+.img7{
+  vertical-align: 50px;
+  height: auto;
+  width: 350px;
+}
+
+.img8{
+  vertical-align: 50px;
+  height: auto;
+  width: 350px;
+}
+.img9{
+  vertical-align: 50px;
+  height: auto;
+  width: 350px;
+}
+
+h1{
+  text-align: center;
+  color: goldenrod;
+  background-color: #111;
+}
+.col1{
+  position: absolute;
+  top: 15%;
+  left: 40%;
+  background: linear-gradient(90deg, #ff0000, #ffff00, #ff00f3, #0033ff, #ff00c4, #ff0000);
+  background-size: 400%;
+  font-size: 50px;
+  font-family: sans-serif;
+  letter-spacing: 5px;
+  font-weight: 600;
+  word-spacing: 5px;
+  -webkit-text-fill-color: transparent;
+  -webkit-background-clip: text;
+  animation: animate 10s linear infinite;
+}
+@keyframes animate{
+  0%{
+    background-position:0%
+  }
+  100%{
+    background-position:400%
+  }
+}

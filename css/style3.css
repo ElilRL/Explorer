@@ -1,0 +1,77 @@
+body{
+  overflow-x: hidden;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-image: url(https://r1.ilikewallpaper.net/iphone-11-pro-wallpapers/download-145724/people-watching-concert.jpg);
+}
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #333;
+  }
+  
+  li {
+    float: right;
+    margin-right: 200px;
+  }
+  
+  li a {
+    display: block;
+    color: rgb(13, 179, 190);
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+  }
+  
+  li a:hover {
+    background-color: #111;
+  }
+
+  img{
+    height: 100px;
+    width: fit-content;
+  }
+
+.col{
+    border: solid rgb(202, 174, 17);
+}
+.row{
+    height: 200px;
+    border: solid rgb(13, 179, 190);
+}
+
+h3{
+  text-align: center;
+  color: rgb(159, 14, 243);;
+  
+}
+h1{
+  text-align: center;
+  color: aqua;
+}
+.col1{
+  position: absolute;
+  text-align: center;
+  top: 15%;
+  background: linear-gradient(90deg, #ff0000, #ffff00, #ff00f3, #0033ff, #ff00c4, #ff0000);
+  background-size: 100%;
+  font-size: 35px;
+  font-family: sans-serif;
+  letter-spacing: 5px;
+  font-weight: 600;
+  word-spacing: 5px;
+  -webkit-text-fill-color: transparent;
+  -webkit-background-clip: text;
+  animation: animate 10s linear infinite;
+}
+@keyframes animate{
+  0%{
+    background-position:0%
+  }
+  100%{
+    background-position:400%
+  }
+}
